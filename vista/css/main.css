@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorPrincipal: #d82b2e;
+}
+body {
+  font-family: "Nova Square", cursive;
+  background: #dddbdb;
+}
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  padding: 5px;
+  position: relative;
+}
+
+.jugador1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 5px;
+  width: 280px;
+  height: 130px;
+  background: var(--colorPrincipal);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.contenedor__img {
+  width: 160px;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jugador1__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--colorPrincipal);
+  object-fit: cover;
+}
+.jugador1__nombre {
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.jugador2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 5px;
+  width: 280px;
+  height: 130px;
+  background: var(--colorPrincipal);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.jugador2__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--colorPrincipal);
+  object-fit: cover;
+}
+.jugador2__nombre {
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+}
+.jugador3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 5px;
+  width: 280px;
+  height: 130px;
+  background: var(--colorPrincipal);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.jugador3__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--colorPrincipal);
+  object-fit: cover;
+}
+.jugador3__nombre {
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+}
+.jugador4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 5px;
+  width: 280px;
+  height: 130px;
+  background: var(--colorPrincipal);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.jugador4__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--colorPrincipal);
+  object-fit: cover;
+}
+.jugador4__nombre {
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+}
